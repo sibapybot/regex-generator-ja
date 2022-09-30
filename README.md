@@ -15,7 +15,7 @@ import generator,math
 
 #正規表現の作成
 texts = ["testだあああああああ！！！agfnl545sad testだあああああああ！！！arf testだあああああああ！！！","testだあああああああ！！！testだあああああああ！！！testだあああああああ！！！","testだあああああああ！！！a testだあああああああ！！！arf  adfs testだあああああああ！！！"]
-ragex = generator.create()
+ragex = generator.create(texts)
 
 #一致しているかどうかの判定
 text = "testだあああああああ！！！agfnl545sad testだあああああああ！！！arf testだあああああああ！！！"
